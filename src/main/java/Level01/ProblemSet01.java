@@ -52,7 +52,13 @@ public class ProblemSet01 {
      * Let numbers and symbols stay the way they are.
      */
     public String swapCase(String str) {
-        // code goes here
+        // Step 01: Validate the data.
+        // Step 02: Declare a character array named chars and assign it to input.split(), passing in "" as an argument.
+        // Step 03: Loop through every character in the character array.
+        // Step 04: Use an if-statement to check if the character is equal to itself.toUpperCase().
+        // Step 05: If yes, set it to itself.toLowerCase().
+        // Step 06: If no, set it to itself.toUpperCase().
+        // Step 07: When loop is finished, return the string array, calling the split() function on it passing in an empty string ("").
         return null;
     }
 }
