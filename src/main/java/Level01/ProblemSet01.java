@@ -9,7 +9,9 @@ public class ProblemSet01 {
      * separated by single spaces.
      */
     public String wordCount(String input) {
-        // code goes here
+        // Step 01: Validate the data.
+        // Step 02: Split input string on spaces and return a String array.
+        // Step 03: Return length of String array, converted to a string using String.valueOf().
         return null;
     }
 
@@ -20,6 +22,10 @@ public class ProblemSet01 {
      */
 
     public String firstReverse(String input){
+        // Step 01: Validate the data.
+        // Step 02: Instantiate StringBuilder, storing it into an variable, and pass input into its constructor.
+        // Step 03: Call reverse from the StringBuilder class.
+        // Step 04: Return the StringBuilder with toString().
         return null;
     }
 
@@ -30,7 +36,13 @@ public class ProblemSet01 {
      * input will not be empty.
      */
     public String longestWord(String input) {
-        // code goes here
+        // Step 01: Validate the data.
+        // Step 03: Call split method on the input object and pass in regex ("\\W+") as an argument. Store the result in a String array variable.
+        // Step 04: Create String variable named largestWord and assign it to nothing ("").
+        // Step 05: Loop through every value in the String array.
+        // Step 06: Use if-statement to check if its length is larger than the largestWord's length.
+                // If so, Set largestWord to that String.
+        // Step 07: When loop ends, return largestWord.
         return null;
     }
 
