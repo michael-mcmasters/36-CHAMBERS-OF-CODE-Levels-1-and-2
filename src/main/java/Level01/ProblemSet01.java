@@ -37,12 +37,12 @@ public class ProblemSet01 {
      */
     public String longestWord(String input) {
         // Step 01: Validate the data.
-        // Step 03: Call split method on the input object and pass in regex ("\\W+") as an argument. Store the result in a String array variable.
-        // Step 04: Create String variable named largestWord and assign it to nothing ("").
-        // Step 05: Loop through every value in the String array.
-        // Step 06: Use if-statement to check if its length is larger than the largestWord's length.
+        // Step 02: Call split method on the input object and pass in regex ("\\W+") as an argument. Store the result in a String array variable.
+        // Step 03: Create String variable named largestWord and assign it to nothing ("").
+        // Step 04: Loop through every value in the String array.
+        // Step 05: Use if-statement to check if its length is larger than the largestWord's length.
                 // If so, Set largestWord to that String.
-        // Step 07: When loop ends, return largestWord.
+        // Step 06: When loop ends, return largestWord.
         return null;
     }
 
