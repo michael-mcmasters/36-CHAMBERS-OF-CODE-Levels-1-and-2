@@ -7,12 +7,12 @@ public class ProblemSet02 {
      * the output should be 1:3). Separate the number of hours and minutes with a colon.
      */
     public String timeConvert(int num){
-        // Create an int named hours.
-        // Assign it to num divided by 60.
-        // Create an int named minutes.
-        // Assign it to num modular 60.
-        // Convert hours and minutes to strings, concatenating them together with a ":" in-between.
-        // return the result.
+        // Step 01: Create an int named hours.
+        // Step 02: Assign it to num divided by 60.
+        // Step 03: Create an int named minutes.
+        // Step 04: Assign it to num modular 60.
+        // Step 05: Convert hours and minutes to strings, concatenating them together with a ":" in-between.
+        // Step 06: return the result.
         return null;
     }
 
