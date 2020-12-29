@@ -56,7 +56,14 @@ public class ProblemSet02 {
      * exist in each array.
      */
     public String arrayMatching(String[] strArr) {
-        // code goes here
+        // Step 01: Validate input. It comes with two arrays. Index 0 is the first array, index 1 is the second array.
+        // Step 02: Find which array is greater. Assign that value to an int named loopCount.
+        // Step 03: Declare a String named result and assign it to nothing "".
+        // Step 04: Create a for-loop that loops up to loopCount.
+        // Step 05: Add the index of the first array with the index of the second array using i to get the index.
+        // Step 06: Use a condition to check if an index is out of bounds. If so, keep the number of the array that does have a value and don't add anything to it.
+        // Step 07: Add the result of the addition of the two arrays to result plus "-". Unless it is the very last loop (i = loopCount).
+        // Step 08: Return result.
         return null;
     }
 }
