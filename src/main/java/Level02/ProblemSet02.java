@@ -7,6 +7,12 @@ public class ProblemSet02 {
      * the output should be 1:3). Separate the number of hours and minutes with a colon.
      */
     public String timeConvert(int num){
+        // Create an int named hours.
+        // Assign it to num divided by 60.
+        // Create an int named minutes.
+        // Assign it to num modular 60.
+        // Convert hours and minutes to strings, concatenating them together with a ":" in-between.
+        // return the result.
         return null;
     }
 
@@ -19,7 +25,17 @@ public class ProblemSet02 {
      * If str is 1:00pm-11:00am the output should be 1320.
      */
     public String countingMinutes(String str) {
-        // code goes here
+        // Step 01: Validate the data.
+        // Step 02: Declare an int named input and use parseInt() to convert str to a number.
+        // Step 03: Declare a boolean named isAM and initialize it to false.
+        // Step 04: Create an int, timeUntilMidnight and set it to 0.
+        // Step 05: If input is less than 12, subtract timeUntilMidnight from input.
+        // Step 06: Declare an int named counter and initialize it to 0.
+        // Step 07: Create a loop, starting at the input number.
+        // Step 08: For every loop, increment counter by 60.
+        // Step 09: If i is equal to 12 and isAM is set to true, set isAM to false and set i to 1.
+        // Step 10: If i is equal to 12 and isAM is set to false, break out of the loop.
+        // Step 11: Return counter.
         return null;
     }
 
